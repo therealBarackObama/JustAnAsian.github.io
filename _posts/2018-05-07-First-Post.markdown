@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title:  "First Post!"
@@ -7,6 +6,7 @@ category: uncategorized
 ---
 
 ## Boring H2 Tag
+
 **Bold** Man
 
 *Slanty* Boi
