@@ -24,6 +24,8 @@ github_username:  JustAnAsian
 
 disqus:
   shortname: justanasians-jekyll-site
+  
+  timezone: America/Los_Angeles
 
 # Build settings
 markdown: kramdown
