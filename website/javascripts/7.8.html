@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+<script type="text/javascript">
+
+
+
+//var time= prompt( "What time is it in military time? Enter time as 12, 13, 14.");
+
+
+	var d = new Date();
+var time = d.getHours()
+	
+	
+	if(time>= 6 && time <=10){
+		( "Continental Breakfast is being served in the lobby."); 
+	}
+	else if( time >= 11 &&  time <=14){
+		 var time=confirm( " The restaurant is open. Would you like a reservation?"); 
+	}
+		 if( time== true) {
+			 alert(" Your reservation is at  1:30.")
+		 }
+	else if( time >= 17 && time< 21){
+		 alert( "Room service is available, or you can go visit the restaurant."); 
+	}
+		 else if( time >= 22 && time <= 5)
+		 alert ("Sorry, nothing is available. You'll have to wait or go out for a snack.")
+		 
+		
+	
+	
+	
+
+
+
+
+
+
+</script>
+</body>
+</html>

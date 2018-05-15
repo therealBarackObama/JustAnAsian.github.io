@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+<script type="text/javascript">
+while(true) {
+	var score=eval(prompt("What was your score on the quiz?"));
+	if(score < 0 || score > 100) {
+		alert("Error. Grade cannot be less 0 or greater than 100");
+		continue;
+	}
+	if(score >= 90 && score <=100)
+		{ alert( "You are average. Good for u."); }
+	else if( score >= 80 &&  score < 90)
+		{ alert ( " study some more."); }
+	else if( score >= 70 && score < 80)
+		{ alert( "No dinner for u."); }
+	else if( score >= 60 && score < 70)
+		{ alert( "Pls no."); }
+	else 
+		{ alert ("No."); }
+	var answer= prompt(" Do u wanna enter another grade?");
+	if (answer ! "yes") {
+		break;
+	}
+	
+}
+
+</script>
+</body>
+</html>

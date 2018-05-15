@@ -1,0 +1,22 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>cookie_clicker</title>
+<script type="text/javascript">
+var score= 1; 
+function cookie_clicker() {
+	score= score+ 1;
+	document.getElementById("score").value=score;
+	
+}
+</script>
+</head>
+
+<body>    
+<button onClick="cookie_clicker();"><img src="images/no-rat-meat.jpg"></button><br>
+<input  id="score" type="text" value="0">
+
+</body>
+</html>
